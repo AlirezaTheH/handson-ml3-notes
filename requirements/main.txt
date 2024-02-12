@@ -1,5 +1,6 @@
 ipykernel
 typing-extensions
+typer
 matplotlib
 numpy
 pandas
