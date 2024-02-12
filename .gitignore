@@ -9,3 +9,6 @@ venv
 
 # Downloaded datasets
 datasets
+
+# Models
+my_*
