@@ -43,6 +43,7 @@ repos:
           # D301 Use r""" if any backslashes in a docstring
           # D400 First line should end with a period
           # D401 First line should be in imperative mood
+          # E203 whitespace before ':'
           # ANN002 Missing type annotation for *args
           # ANN003 Missing type annotation for **kwargs
           # ANN101 Missing type annotation for self in method
@@ -58,6 +59,7 @@ repos:
             - D301
             - D400
             - D401
+            - E203
             - ANN002
             - ANN003
             - ANN101
@@ -88,6 +90,7 @@ repos:
           # D301 Use r""" if any backslashes in a docstring
           # D400 First line should end with a period
           # D401 First line should be in imperative mood
+          # E203 whitespace before ':'
           # E402 Module level import not at top of file
           # ANN002 Missing type annotation for *args
           # ANN003 Missing type annotation for **kwargs
@@ -95,4 +98,4 @@ repos:
           # ANN102 Missing type annotation for cls in classmethod
           # ANN401 Dynamically typed expressions (typing.Any) are disallowed
           # W503 Line break before binary operator
-          - --ignore=D100,D101,D102,D103,D105,D200,D205,D301,D400,D401,E402,ANN002,ANN003,ANN101,ANN102,ANN401,W503
+          - --ignore=D100,D101,D102,D103,D105,D200,D205,D301,D400,D401,E203,E402,ANN002,ANN003,ANN101,ANN102,ANN401,W503
