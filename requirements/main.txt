@@ -9,3 +9,4 @@ scipy
 joblib
 nltk
 urlextract
+graphviz
