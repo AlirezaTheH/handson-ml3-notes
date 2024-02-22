@@ -10,3 +10,4 @@ joblib
 nltk
 urlextract
 graphviz
+pillow
