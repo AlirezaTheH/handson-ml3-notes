@@ -11,3 +11,7 @@ nltk
 urlextract
 graphviz
 pillow
+tensorflow
+tensorboard
+tensorboard-plugin-profile
+keras-tuner
