@@ -17,3 +17,4 @@ tensorboard-plugin-profile
 keras-tuner
 tensorflow-hub
 tensorflow-datasets
+transformers
