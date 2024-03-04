@@ -20,3 +20,7 @@ tensorflow-datasets
 transformers
 swig
 gymnasium[classic_control,box2d,atari,accept-rom-license]
+requests
+google-cloud-aiplatform
+tensorflow-serving-api
+cloudml-hypertune
