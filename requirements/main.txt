@@ -18,3 +18,5 @@ keras-tuner
 tensorflow-hub
 tensorflow-datasets
 transformers
+swig
+gymnasium[classic_control,box2d,atari,accept-rom-license]
