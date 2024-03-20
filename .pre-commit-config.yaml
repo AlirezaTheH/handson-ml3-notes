@@ -18,7 +18,7 @@ repos:
           - --profile=black
           - --line-length=79
   - repo: https://github.com/psf/black
-    rev: 24.1.1
+    rev: 24.3.0
     hooks:
       - id: black-jupyter
         args:
@@ -67,7 +67,7 @@ repos:
             - ANN401
             - W503
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.7.1
+    rev: 1.8.4
     hooks:
       - id: nbqa-isort
         args:
