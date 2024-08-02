@@ -4,7 +4,7 @@ ci:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
@@ -18,7 +18,7 @@ repos:
           - --profile=black
           - --line-length=79
   - repo: https://github.com/psf/black
-    rev: 24.3.0
+    rev: 24.4.2
     hooks:
       - id: black-jupyter
         args:
@@ -26,7 +26,7 @@ repos:
           - --skip-string-normalization
           - --python-cell-magics=writefile
   - repo: https://github.com/PyCQA/flake8
-    rev: 7.0.0
+    rev: 7.1.0
     hooks:
       - id: flake8
         additional_dependencies:
@@ -67,7 +67,7 @@ repos:
             - ANN401
             - W503
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.8.4
+    rev: 1.8.5
     hooks:
       - id: nbqa-isort
         args:
